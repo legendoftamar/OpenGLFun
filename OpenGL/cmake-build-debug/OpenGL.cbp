@@ -84,6 +84,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/tamar/OpenGLFun/OpenGL/dependencies/glew-2.1.0/include"/>
 					<Add directory="/Users/tamar/OpenGLFun/OpenGL/dependencies/glfw-3.3.2/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
@@ -107,6 +108,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/tamar/OpenGLFun/OpenGL/dependencies/glew-2.1.0/include"/>
 					<Add directory="/Users/tamar/OpenGLFun/OpenGL/dependencies/glfw-3.3.2/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/OpenGL.framework"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
@@ -2005,6 +2007,9 @@
 			<Option target="windows"/>
 		</Unit>
 		<Unit filename="/Users/tamar/OpenGLFun/OpenGL/main.cpp">
+			<Option target="OpenGL"/>
+		</Unit>
+		<Unit filename="/Users/tamar/OpenGLFun/OpenGL/src/window.cpp">
 			<Option target="OpenGL"/>
 		</Unit>
 		<Unit filename="/Users/tamar/OpenGLFun/OpenGL/CMakeLists.txt">
